@@ -1,0 +1,29 @@
+﻿Reference,Qty,Value,DNP,Footprint
+A1,1,Arduino_UNO_R3,,Module:Arduino_UNO_R3
+"C1,C3,C7,C8,C15,C24,C25",7,10uf,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+"C2,C5,C6,C9,C10,C11,C12,C17,C18,C19,C22,C23,C26,C27,C28,C29",16,0.1uf,,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm
+C4,1,0.47uf,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+"C13,C16,C20,C21",4,1uf,,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm
+C14,1,100uf,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+"D1,D2,D3,D4",4,BAT85,,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal
+"J1,J2",2,RJ45_Shielded,,Connector_RJ:RJ45_Ninigi_GE
+MAX1,1,,,Package_DIP:DIP-8_W7.62mm
+"R1,R2,R4,R5,R6,R10",6,1M,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+R3,1,10E,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+"R7,R9",2,10k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+"R8,R11",2,1k,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+"RV1,RV2,RV3",3,10k,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+"TTP1,TTP2",2,,,TTP223:TTP223_module
+U1,1,LM7805_TO220,,Package_TO_SOT_THT:TO-220-3_Vertical
+"U2,U3",2,CD4051B,,Package_DIP:DIP-16_W7.62mm
+U4,1,2S4P LI-ION BATTERY,,
+U5,1,2S LI-ION BMS 10A,,
+U6,1,2S LI-ION CC/CV CHARGER,,
+U7,1,XL4015,,
+U8,1,AD620_instrumentation_amplifier_module,,
+U9,1,INA219AxD,,Package_DIP:DIP-8_W10.16mm
+"U10,U12",2,OP07,,Package_DIP:DIP-8_W7.62mm
+U11,1,TXS0108EPW,,Package_DIP:DIP-20_W7.62mm
+U13,1,TL081,,Package_DIP:DIP-8_W7.62mm
+U14,1,NodeMCU1.0(ESP-12E),,RF_Module:ESP-12E
+U15,1,ADS1115IDGS,,Package_DIP:DIP-10_W7.62mm

@@ -1,0 +1,42 @@
+# -------------------------
+# KiCad Backup & Autosave
+# -------------------------
+
+*-bak
+*.bak
+*-backups/
+*-save.pro
+*.kicad_prl-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Autosave files
+_autosave-*
+*.autosave
+
+# Lock files (created while project is open)
+*.kicad_pro.lck
+
+# Temporary files
+*.tmp
+
+# -------------------------
+# Operating System
+# -------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# VS Code
+# -------------------------
+
+.vscode/
+
+# -------------------------
+# Python
+# -------------------------
+
+__pycache__/
+*.pyc
