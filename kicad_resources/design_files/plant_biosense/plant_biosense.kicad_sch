@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CEREPHYTE\n")
-		(date "2026-06-12")
-		(rev "4")
+		(date "2026-08-03")
+		(rev "4.2")
 		(company "ISLERI")
 	)
 	(lib_symbols
@@ -8199,9 +8199,9 @@
 		)
 		(uuid "f3d2c664-f5a5-4f7d-b03f-c8b0cf11061c")
 	)
-	(text "POWER SUPPLY UNIT"
+	(text "POWER SUPPLY UNIT +5v linear and buck"
 		(exclude_from_sim no)
-		(at 23.114 115.316 0)
+		(at 31.242 115.062 0)
 		(effects
 			(font
 				(face "Arial Unicode MS")
@@ -8365,12 +8365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23686efa-407f-4ac4-975a-7dace2f46981")
-	)
-	(junction
-		(at 99.06 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2413fa77-d3b5-4340-abab-19b22ba2c64d")
 	)
 	(junction
 		(at 35.56 52.07)
@@ -8683,10 +8677,6 @@
 	(no_connect
 		(at 190.5 83.82)
 		(uuid "95fd9e97-dc17-42ce-8eeb-d1c708de68c7")
-	)
-	(no_connect
-		(at 165.1 114.3)
-		(uuid "96aa8470-d246-4bce-a8b3-9322d38024aa")
 	)
 	(no_connect
 		(at 256.54 153.67)
@@ -9439,6 +9429,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 92.71) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f75cd5f-1cba-49e0-9657-5bef86cf4b14")
+	)
+	(wire
+		(pts
 			(xy 139.7 157.48) (xy 146.05 157.48)
 		)
 		(stroke
@@ -9446,6 +9446,16 @@
 			(type default)
 		)
 		(uuid "54d55f08-a573-4d43-b118-7a769e9f37cd")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550d2076-ea9d-4871-8df6-44fad1b0fbba")
 	)
 	(wire
 		(pts
@@ -9870,16 +9880,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 106.68 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e10530c-17b5-46c5-ae31-ab9285c28630")
-	)
-	(wire
-		(pts
 			(xy 38.1 92.71) (xy 34.29 92.71)
 		)
 		(stroke
@@ -10132,6 +10132,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 92.71) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e57369e-ed45-4845-aa88-4d349da0d128")
+	)
+	(wire
+		(pts
 			(xy 19.05 26.67) (xy 21.59 26.67)
 		)
 		(stroke
@@ -10242,16 +10252,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 165.1 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a49aaa2a-1d69-4a35-8f05-3cffef97dac8")
-	)
-	(wire
-		(pts
 			(xy 97.79 12.7) (xy 97.79 19.05)
 		)
 		(stroke
@@ -10322,7 +10322,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 99.06 93.98)
+			(xy 106.68 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafe9005-3156-491e-b4bc-4aa654ec05fb")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10389,16 +10399,6 @@
 			(type default)
 		)
 		(uuid "b1d58f48-2ff3-49b7-a1ec-317fe84acda5")
-	)
-	(wire
-		(pts
-			(xy 99.06 91.44) (xy 99.06 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b20549fb-fca7-420f-898e-ee448cee09d3")
 	)
 	(wire
 		(pts
@@ -11072,16 +11072,6 @@
 			(type default)
 		)
 		(uuid "eec19ef2-843e-44cd-89b8-b9ee0f1f690d")
-	)
-	(wire
-		(pts
-			(xy 99.06 93.98) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0166261-0e7c-446e-8f76-3c122d53330d")
 	)
 	(wire
 		(pts
@@ -12660,6 +12650,42 @@
 		)
 		(property "Component Class" ""
 			(at 82.55 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 133.35 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "708c5392-9a63-410b-b794-b04898df7b9d")
+		(property "Net Class" "Digital_IO"
+			(at 134.0485 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 68.58 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

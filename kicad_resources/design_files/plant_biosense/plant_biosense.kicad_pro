@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "4"
+      "sch_revision": "4.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -559,6 +559,9 @@
         "Digital_IO"
       ],
       "Net-(A1-D12)": [
+        "Digital_IO"
+      ],
+      "Net-(A1-D13)": [
         "Digital_IO"
       ],
       "Net-(A1-D1{slash}TX)": [
