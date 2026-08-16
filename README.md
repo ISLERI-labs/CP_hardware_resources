@@ -29,7 +29,7 @@ See LICENSE for details.
 ## Documentation
 
 - See [CHANGELOG.md](CHANGELOG.md) for release notes and project updates.
-- See [THIRD_PARTY.md](THIRD_PARTY.md) for third-party licensing and attribution details.
+- See [THIRD_PARTY.md](LICENSE/THIRD_PARTY.md) for third-party licensing and attribution details.
 
 > ## Development Status
 >
