@@ -1,6 +1,3 @@
-License: CC BY-SA 4.0
-Unless otherwise stated, documentation contained within this directory is licensed under CC BY-SA 4.0. Copyright © 2026 Omm Prakash Das / ISLERI.
-
 Attribution-NonCommercial-ShareAlike 4.0 International
 
 =======================================================================
