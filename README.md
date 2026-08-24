@@ -4,7 +4,7 @@
 
 **Current Prototype:** CEREPHYTE 4.2 (In Development)
 
-**Validation Status:** Testing in Progress
+**Validation Status:** Hardware validation pending
 
 **License:** CHL v1.0
 
