@@ -1,6 +1,6 @@
 **Project Status:** 🟡 Active Development
 
-**Author/developed by:** Omm praksh das
+**Author/developed by:** Omm Prakash Das
 
 **Latest Stable Hardware:** None
 
