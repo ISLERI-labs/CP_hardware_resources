@@ -1,5 +1,7 @@
 **Project Status:** 🟡 Active Development
 
+**Author/developed by:** Omm praksh das
+
 **Latest Stable Hardware:** None
 
 **Current Prototype:** CEREPHYTE 4.2 (In Development)
