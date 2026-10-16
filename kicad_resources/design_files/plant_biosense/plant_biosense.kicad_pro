@@ -570,10 +570,16 @@
       "Net-(C11-Pad1)": [
         "Biosignal_Analog"
       ],
+      "Net-(C13-Pad1)": [
+        "Biosignal_Analog"
+      ],
       "Net-(C13-Pad2)": [
         "Biosignal_Analog"
       ],
       "Net-(C15-Pad2)": [
+        "Biosignal_Analog"
+      ],
+      "Net-(C18-Pad2)": [
         "Biosignal_Analog"
       ],
       "Net-(C20-Pad2)": [
@@ -591,11 +597,26 @@
       "Net-(U10--)": [
         "Biosignal_Analog"
       ],
+      "Net-(U11-+)": [
+        "Biosignal_Analog"
+      ],
+      "Net-(U11--)": [
+        "Biosignal_Analog"
+      ],
       "Net-(U12-+)": [
         "Biosignal_Analog"
       ],
       "Net-(U12--)": [
         "Biosignal_Analog"
+      ],
+      "Net-(U3-CB+)": [
+        "Power_Lines"
+      ],
+      "Net-(U3-CB-)": [
+        "Power_Lines"
+      ],
+      "Net-(U3-CMP)": [
+        "Power_Lines"
       ],
       "Net-(U4-CB+)": [
         "Power_Lines"
@@ -606,7 +627,16 @@
       "Net-(U4-CMP)": [
         "Power_Lines"
       ],
+      "Net-(U7-Vout)": [
+        "Biosignal_Analog"
+      ],
       "Net-(U8-Vout)": [
+        "Biosignal_Analog"
+      ],
+      "Net-(U9-+)": [
+        "Biosignal_Analog"
+      ],
+      "Net-(U9--)": [
         "Biosignal_Analog"
       ]
     },
@@ -971,7 +1001,7 @@
         "uuid": "8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
       }
     ],
-    "used_designators": "D1-4,#PWR1-44,A1,C1-29,R1-11,J1-2,MAX1,TTP1-2,NT1-6,RV1-3,U1-15",
+    "used_designators": "",
     "variants": [
       {
         "description": "uses a charger with balancing function",
