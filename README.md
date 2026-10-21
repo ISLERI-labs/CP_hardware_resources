@@ -4,7 +4,7 @@
 
 **Latest Stable Hardware:** None
 
-**Current Prototype:** CEREPHYTE 4.2 (In Development)
+**Current Prototype:** CEREPHYTE 4.5 (Prototype evaluation)
 
 **Validation Status:** Hardware validation pending
 
