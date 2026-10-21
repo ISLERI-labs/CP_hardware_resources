@@ -549,6 +549,9 @@
       "/Aout": [
         "Biosignal_Analog"
       ],
+      "/BP+": [
+        "Power_Lines"
+      ],
       "Net-(A1-D0{slash}RX)": [
         "Digital_IO"
       ],
@@ -637,6 +640,9 @@
         "Power_Lines"
       ],
       "Net-(U4-CMP)": [
+        "Power_Lines"
+      ],
+      "Net-(U6-IN+)": [
         "Power_Lines"
       ],
       "Net-(U7-Vout)": [
@@ -1013,7 +1019,7 @@
         "uuid": "8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
       }
     ],
-    "used_designators": "D1-4,#PWR1-43,A1,C1-27,R1-11,J1-2,MAX1,TTP1-2,NT1-6,RV1-3,U1-14",
+    "used_designators": "",
     "variants": [
       {
         "description": "uses a charger with balancing function",
