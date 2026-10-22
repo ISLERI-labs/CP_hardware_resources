@@ -8465,12 +8465,20 @@
 		(uuid "05498a8f-13a0-4d26-8b4e-2ed75563d80b")
 	)
 	(no_connect
+		(at 279.4 81.28)
+		(uuid "07866cb1-7be6-4fab-8174-e5b0e1836553")
+	)
+	(no_connect
 		(at 279.4 93.98)
 		(uuid "0a27d1b3-117b-494e-b388-4609a5ae0ab2")
 	)
 	(no_connect
 		(at 279.4 104.14)
 		(uuid "136f47e5-9243-47b1-ab1d-841fbb0f2017")
+	)
+	(no_connect
+		(at 203.2 87.63)
+		(uuid "18775ca8-6029-4e46-bdff-5be4dd43309e")
 	)
 	(no_connect
 		(at 223.52 92.71)
@@ -8501,10 +8509,6 @@
 		(uuid "400bc4d1-b28e-4416-8b1f-ea8f131c0bcd")
 	)
 	(no_connect
-		(at 190.5 99.06)
-		(uuid "42531e44-aa7e-4e7f-9a78-fc6f6835a043")
-	)
-	(no_connect
 		(at 274.32 153.67)
 		(uuid "4317d704-f4a7-4d14-9ed5-134afa47a6c0")
 	)
@@ -8515,6 +8519,14 @@
 	(no_connect
 		(at 279.4 109.22)
 		(uuid "481ddd18-5170-464b-ab1a-a88eecb33793")
+	)
+	(no_connect
+		(at 203.2 90.17)
+		(uuid "51d96a8c-2eda-451e-b259-d81236655758")
+	)
+	(no_connect
+		(at 223.52 90.17)
+		(uuid "54379ecf-c851-4f34-99da-7a4e53eafb50")
 	)
 	(no_connect
 		(at 223.52 95.25)
@@ -8537,6 +8549,10 @@
 		(uuid "7a40b050-1153-4037-84b0-8a0890c93248")
 	)
 	(no_connect
+		(at 279.4 83.82)
+		(uuid "7c6f2b3d-4728-4069-a265-f081903a0af5")
+	)
+	(no_connect
 		(at 238.76 78.74)
 		(uuid "7fe16bbe-5354-4e39-afe4-99b00d92e24b")
 	)
@@ -8557,6 +8573,10 @@
 		(uuid "95fd9e97-dc17-42ce-8eeb-d1c708de68c7")
 	)
 	(no_connect
+		(at 223.52 87.63)
+		(uuid "9a05b839-e3dc-40e6-9166-8a8e32b2d93a")
+	)
+	(no_connect
 		(at 254 153.67)
 		(uuid "a01d668c-b9e5-48f0-915c-f015691a29f3")
 	)
@@ -8567,6 +8587,10 @@
 	(no_connect
 		(at 279.4 96.52)
 		(uuid "ae0928da-0b4a-4a4d-ab45-31d5b19dbce0")
+	)
+	(no_connect
+		(at 182.88 68.58)
+		(uuid "aea1b8fd-ac0e-4b6c-a5a0-3c72d066ba74")
 	)
 	(no_connect
 		(at 190.5 88.9)
@@ -8591,10 +8615,6 @@
 	(no_connect
 		(at 238.76 101.6)
 		(uuid "c3f5f134-24c4-4d60-af38-175b1f31f4a7")
-	)
-	(no_connect
-		(at 190.5 101.6)
-		(uuid "cdb16472-9a92-4a59-aa4f-ea4df9b48cc7")
 	)
 	(no_connect
 		(at 279.4 99.06)
@@ -9799,6 +9819,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 110.49) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a394465-58e6-4929-9b38-e6f24017fee0")
+	)
+	(wire
+		(pts
 			(xy 168.91 44.45) (xy 184.15 44.45)
 		)
 		(stroke
@@ -10047,16 +10077,6 @@
 			(type default)
 		)
 		(uuid "a3cd0d3a-8436-4a50-86e9-1f91bedb597f")
-	)
-	(wire
-		(pts
-			(xy 182.88 64.77) (xy 182.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4067b86-b198-4815-8810-ccd8bae01a30")
 	)
 	(wire
 		(pts
@@ -11032,17 +11052,6 @@
 		)
 		(uuid "0b7b0de3-8f9f-4844-ac92-adadb59ac9fc")
 	)
-	(label "arduino5v"
-		(at 130.81 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right bottom)
-		)
-		(uuid "0cc9fc55-d701-402b-97a2-d734d78e2754")
-	)
 	(label "LSDA"
 		(at 279.4 78.74 0)
 		(effects
@@ -11073,18 +11082,8 @@
 		)
 		(uuid "12664473-b39a-4e19-b934-8194a30f474c")
 	)
-	(label "IOO1"
-		(at 203.2 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16a01d5b-04eb-4694-96e8-c7a54007d57c")
-	)
 	(label "IO1"
-		(at 223.52 87.63 0)
+		(at 190.5 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11194,7 +11193,7 @@
 		(uuid "3013d3fa-5dd4-4d7e-b6bf-1a92a942b1a5")
 	)
 	(label "IO2"
-		(at 223.52 90.17 0)
+		(at 190.5 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11202,6 +11201,16 @@
 			(justify left bottom)
 		)
 		(uuid "30be3119-aafc-4a93-ae6c-bd8be9b53d14")
+	)
+	(label "vdd"
+		(at 227.33 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32111e28-4e36-4715-8d8c-d6c9640795e3")
 	)
 	(label "INASCL"
 		(at 86.36 148.59 0)
@@ -11294,16 +11303,6 @@
 		)
 		(uuid "47b315c7-ac49-4131-b9e1-8339ffe19bfd")
 	)
-	(label "IOO1"
-		(at 279.4 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47cbf4c3-b3aa-4586-b35f-7aee55fe74fd")
-	)
 	(label "b1"
 		(at 157.48 86.36 0)
 		(effects
@@ -11354,17 +11353,6 @@
 		)
 		(uuid "4fb186de-3e5f-48e4-96e8-c3be9f5c9afa")
 	)
-	(label "arduino5v"
-		(at 215.9 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "519fab68-b13e-41a6-b06a-422e935b5dda")
-	)
 	(label "a1"
 		(at 157.48 83.82 0)
 		(effects
@@ -11374,6 +11362,16 @@
 			(justify left bottom)
 		)
 		(uuid "51ad924a-8436-4a2d-b873-781253790823")
+	)
+	(label "vdd"
+		(at 215.9 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54595fd3-3626-4e2a-b395-5590e0fc819a")
 	)
 	(label "vdd"
 		(at 76.2 140.97 180)
@@ -11424,17 +11422,6 @@
 			(justify left bottom)
 		)
 		(uuid "5a863500-4d2e-43d9-9603-c9e3e4cf99b0")
-	)
-	(label "arduino5v"
-		(at 182.88 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c8434e3-fc13-4ead-b2cc-a294f07b0edc")
 	)
 	(label "m0"
 		(at 46.99 29.21 0)
@@ -11526,16 +11513,6 @@
 			(justify left bottom)
 		)
 		(uuid "705aee9c-6016-4f2d-9eb3-9eb0391cc0e9")
-	)
-	(label "IOO2"
-		(at 279.4 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74782799-9dcd-4b78-a637-d074d0f01103")
 	)
 	(label "m3"
 		(at 46.99 77.47 0)
@@ -11808,16 +11785,6 @@
 		)
 		(uuid "a903fdc8-71fd-42c7-a315-8895a0cd1f9b")
 	)
-	(label "IOO2"
-		(at 203.2 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa62835b-2f7b-46fa-8cca-ca1c2ea6adc9")
-	)
 	(label "m5"
 		(at 44.45 177.8 0)
 		(effects
@@ -11837,6 +11804,16 @@
 			(justify right bottom)
 		)
 		(uuid "b1d40d83-d42d-4828-9df0-749fdf94685f")
+	)
+	(label "vdd"
+		(at 264.16 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b24bf3a8-440c-4691-936a-f931adf11fb1")
 	)
 	(label "m2"
 		(at 46.99 34.29 0)
@@ -11989,17 +11966,6 @@
 		)
 		(uuid "ce73ce37-3828-40a3-8c38-f0c7813f853e")
 	)
-	(label "arduino5v"
-		(at 227.33 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf351b4d-307c-4a8c-9bdc-7a8d04ea57f7")
-	)
 	(label "vdd"
 		(at 74.93 64.77 0)
 		(effects
@@ -12040,17 +12006,6 @@
 			(justify left bottom)
 		)
 		(uuid "d8060aa4-3774-4023-84f0-437df38ca3d5")
-	)
-	(label "arduino5v"
-		(at 264.16 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "d98eec02-ef34-49bb-9973-8f125ff90443")
 	)
 	(label "INASCL"
 		(at 223.52 100.33 0)
@@ -12111,6 +12066,16 @@
 			(justify left bottom)
 		)
 		(uuid "e77f5e88-3294-4c85-b56c-e6e4eaf5916b")
+	)
+	(label "vdd"
+		(at 127 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7fcefd9-a113-4e10-bfd8-0a80692fec55")
 	)
 	(label "c2"
 		(at 19.05 67.31 0)
