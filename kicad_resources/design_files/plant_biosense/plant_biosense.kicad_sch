@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CEREPHYTE\n")
-		(date "2026-10-23")
+		(date "2026-10-25")
 		(rev "5")
 		(company "ISLERI")
 		(comment 1 "Copyright © 2026 Omm Prakash Das")
@@ -8473,12 +8473,24 @@
 		(uuid "07866cb1-7be6-4fab-8174-e5b0e1836553")
 	)
 	(no_connect
+		(at 152.4 111.76)
+		(uuid "0b66f916-ef17-40cc-a4ef-21318fe9e19b")
+	)
+	(no_connect
 		(at 271.78 107.95)
 		(uuid "136f47e5-9243-47b1-ab1d-841fbb0f2017")
 	)
 	(no_connect
 		(at 199.39 87.63)
 		(uuid "18775ca8-6029-4e46-bdff-5be4dd43309e")
+	)
+	(no_connect
+		(at 271.78 97.79)
+		(uuid "187cb95e-2603-4bbe-be35-4e04da2d4ac3")
+	)
+	(no_connect
+		(at 219.71 100.33)
+		(uuid "2c754f4b-82d4-40cc-b05e-ef037fe5a9e8")
 	)
 	(no_connect
 		(at 271.78 77.47)
@@ -8517,8 +8529,16 @@
 		(uuid "43a3b118-ce8d-4a07-a637-0ec128ed8091")
 	)
 	(no_connect
+		(at 199.39 100.33)
+		(uuid "43f3fe44-e19d-4c34-bc89-584479b5641d")
+	)
+	(no_connect
 		(at 271.78 113.03)
 		(uuid "481ddd18-5170-464b-ab1a-a88eecb33793")
+	)
+	(no_connect
+		(at 271.78 80.01)
+		(uuid "4d1ba335-78a8-40e1-a77d-6f185709684c")
 	)
 	(no_connect
 		(at 199.39 90.17)
@@ -8527,6 +8547,10 @@
 	(no_connect
 		(at 219.71 90.17)
 		(uuid "54379ecf-c851-4f34-99da-7a4e53eafb50")
+	)
+	(no_connect
+		(at 177.8 96.52)
+		(uuid "5fcdf8e7-2bd8-4291-a526-ba21f55e0f6c")
 	)
 	(no_connect
 		(at 199.39 85.09)
@@ -8565,6 +8589,10 @@
 		(uuid "7fe16bbe-5354-4e39-afe4-99b00d92e24b")
 	)
 	(no_connect
+		(at 219.71 92.71)
+		(uuid "826c5eb7-678e-45d2-a114-871a76aa4b21")
+	)
+	(no_connect
 		(at 254 148.59)
 		(uuid "89b06491-7300-4017-997c-9e7aeb4c457b")
 	)
@@ -8575,6 +8603,10 @@
 	(no_connect
 		(at 177.8 83.82)
 		(uuid "95fd9e97-dc17-42ce-8eeb-d1c708de68c7")
+	)
+	(no_connect
+		(at 199.39 92.71)
+		(uuid "967208ac-2d40-46c2-a0ad-5acf7b6f1c2a")
 	)
 	(no_connect
 		(at 219.71 87.63)
@@ -9141,16 +9173,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 187.96 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d09bfd9-4e8a-4a91-ab4a-e892e2c88c3e")
-	)
-	(wire
-		(pts
 			(xy 229.87 41.91) (xy 229.87 52.07)
 		)
 		(stroke
@@ -9298,16 +9320,6 @@
 			(type default)
 		)
 		(uuid "4e9a1504-8577-4767-919d-9febf56edc53")
-	)
-	(wire
-		(pts
-			(xy 187.96 100.33) (xy 199.39 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f753bcb-fbed-4d1c-9df1-4b833e464835")
 	)
 	(wire
 		(pts
@@ -9941,16 +9953,6 @@
 			(type default)
 		)
 		(uuid "9a277720-ecb9-449d-b79c-c5fbc05021b4")
-	)
-	(wire
-		(pts
-			(xy 177.8 96.52) (xy 187.96 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec5eaad-8d4b-40a7-86f2-ccdd6c3e4038")
 	)
 	(wire
 		(pts
@@ -10916,16 +10918,6 @@
 		)
 		(uuid "03c924d5-0283-4c99-b853-97b504210333")
 	)
-	(label "CS"
-		(at 271.78 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09dd505d-799b-441a-ae35-4d127c4341fa")
-	)
 	(label "m5"
 		(at 46.99 82.55 0)
 		(effects
@@ -10956,7 +10948,7 @@
 		)
 		(uuid "12664473-b39a-4e19-b934-8194a30f474c")
 	)
-	(label "MOSIN"
+	(label "SS_TX_ESP"
 		(at 271.78 82.55 0)
 		(effects
 			(font
@@ -11066,8 +11058,8 @@
 		)
 		(uuid "28cfdb19-9cc8-4a73-b1a5-488790048494")
 	)
-	(label "MISO"
-		(at 152.4 106.68 180)
+	(label "SS_RX_A"
+		(at 152.4 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11115,16 +11107,6 @@
 			(justify left bottom)
 		)
 		(uuid "333b7d89-c9dc-41bf-8039-2a2af4b7b60e")
-	)
-	(label "SCLKN"
-		(at 219.71 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "377251be-3da3-439a-a6bf-5d4abe59f53f")
 	)
 	(label "m4"
 		(at 46.99 80.01 0)
@@ -11267,7 +11249,7 @@
 		)
 		(uuid "51ad924a-8436-4a2d-b873-781253790823")
 	)
-	(label "MISO"
+	(label "SS_RX_ESP"
 		(at 271.78 95.25 0)
 		(effects
 			(font
@@ -11316,16 +11298,6 @@
 			(justify left bottom)
 		)
 		(uuid "586688f6-1988-47f9-84da-31ad2b83f3b6")
-	)
-	(label "SCLK"
-		(at 199.39 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5cd7af92-d157-4513-9f52-0c01ac8ba517")
 	)
 	(label "m0"
 		(at 46.99 29.21 0)
@@ -11449,8 +11421,8 @@
 		)
 		(uuid "7a6d0f9d-0d07-4d55-b16e-eefe3b3a770e")
 	)
-	(label "MOSI"
-		(at 199.39 95.25 180)
+	(label "SS_TX_A"
+		(at 199.39 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11478,16 +11450,6 @@
 			(justify left bottom)
 		)
 		(uuid "81b72521-d4f9-45e8-8356-3ef1666ae88a")
-	)
-	(label "SCLK"
-		(at 152.4 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "821eaae2-02b2-496d-a038-5a50551408a6")
 	)
 	(label "GNDA"
 		(at 54.61 187.96 0)
@@ -11679,8 +11641,8 @@
 		)
 		(uuid "a903fdc8-71fd-42c7-a315-8895a0cd1f9b")
 	)
-	(label "MOSI"
-		(at 152.4 109.22 180)
+	(label "SS_TX_A"
+		(at 152.4 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11718,16 +11680,6 @@
 			(justify left bottom)
 		)
 		(uuid "b24bf3a8-440c-4691-936a-f931adf11fb1")
-	)
-	(label "SCLKN"
-		(at 271.78 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b28a019a-a405-4ddf-aad4-b54a33270e13")
 	)
 	(label "m2"
 		(at 46.99 34.29 0)
@@ -11890,7 +11842,7 @@
 		)
 		(uuid "cf75e310-53ea-4950-a152-e6014cdd6068")
 	)
-	(label "MOSIN"
+	(label "SS_TX_ESP"
 		(at 219.71 95.25 0)
 		(effects
 			(font
@@ -11921,7 +11873,7 @@
 		)
 		(uuid "d8060aa4-3774-4023-84f0-437df38ca3d5")
 	)
-	(label "MISON"
+	(label "SS_RX_ESP"
 		(at 219.71 97.79 0)
 		(effects
 			(font
@@ -12022,8 +11974,8 @@
 		)
 		(uuid "f068d7a0-f550-44ea-91f3-c20dd1412671")
 	)
-	(label "MISO"
-		(at 199.39 97.79 180)
+	(label "SS_RX_A"
+		(at 199.39 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12061,16 +12013,6 @@
 			(justify right bottom)
 		)
 		(uuid "fafb595a-1933-4518-9922-6e1882eb1cbe")
-	)
-	(label "CS"
-		(at 219.71 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc3bdd38-8714-4f1f-a157-7d0cb5bd2591")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -12731,7 +12673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0102034d-5de1-4b4f-b1c2-c2701f88ba73")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 224.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12791,7 +12733,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12808,7 +12750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "029a4022-9ed7-4cb4-a4e2-d6b277339f72")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 81.28 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12868,7 +12810,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -13082,7 +13024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d58adc5-abb9-4ffa-b54d-d3bc8c64395b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13142,7 +13084,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13419,7 +13361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123a14ba-94b4-47ea-9b0a-3fc8b238d0be")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 266.7 34.2198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13499,7 +13441,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -13520,7 +13462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12efe8b7-4e76-40f3-98d2-449bc290dacf")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 151.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13580,7 +13522,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14108,7 +14050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b83e36c-b6cd-47e6-b7ee-f41fe95772aa")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 243.84 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14168,7 +14110,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14268,7 +14210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31941054-7432-4e42-a883-fd69208570bf")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14328,7 +14270,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14520,7 +14462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b125d3b-4edf-4a00-bd69-637c3780c3a0")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 199.39 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14581,7 +14523,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14599,7 +14541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e42472f-fdf7-4a06-829a-5ebb397fd609")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 176.53 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14660,7 +14602,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14806,7 +14748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42adfc76-fca0-4ad5-b77a-f301f45a0c6e")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 144.526 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14869,7 +14811,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -14971,7 +14913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c7e220b-b5fc-4832-9d7a-36bde49d3ee6")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 223.012 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15033,7 +14975,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -15305,7 +15247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "569dd38b-3253-4711-a097-10fb82c96471")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 142.24 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15366,7 +15308,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15468,7 +15410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a02d4a0-000a-465d-96d2-8db8445708a1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 160.02 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -15528,7 +15470,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15546,7 +15488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c362c82-f6d6-48bb-8b2e-80c2e0abc0f5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 142.24 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15607,7 +15549,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15625,7 +15567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d2ba46d-5fcb-4e48-93be-aa0b385085d2")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 217.17 122.3009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15689,7 +15631,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -15709,7 +15651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "609e4b11-4805-4009-b105-4d76c56f2afe")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 146.304 27.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15771,7 +15713,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -15877,7 +15819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62f45e84-3e4f-47f3-8368-828045bb1ac3")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 198.12 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15938,7 +15880,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16125,7 +16067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd6304e-734e-499e-99c0-9f41566fac2d")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 194.31 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16187,7 +16129,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -16207,7 +16149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e97d2b4-d5e3-493e-802f-8f20a9882e93")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 151.13 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16267,7 +16209,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16284,7 +16226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "719ca8d4-c94d-4190-8bc8-2c6d6ffc59e3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 118.11 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16344,7 +16286,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16361,7 +16303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72e27806-a46d-493a-8465-264c2968f54d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 209.55 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16422,7 +16364,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16439,7 +16381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73411bae-506c-4b6b-8a68-73139ce7b69f")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 166.37 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16501,7 +16443,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -16714,7 +16656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "789e3704-5357-44e0-ade9-e13b18c8bfeb")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 234.95 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16778,7 +16720,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -16966,7 +16908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f170e1c-6e44-40dd-ac7c-14e5d177c1af")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 234.95 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17030,7 +16972,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -17242,7 +17184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e6114c0-283c-4811-895c-9bd879feb7c1")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 92.71 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -17303,7 +17245,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17950,7 +17892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b2874c6-ad82-425e-b225-7cf85f0c7840")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 161.29 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18011,7 +17953,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18113,7 +18055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3d4ba97-d646-4c36-9e58-e0667db6565a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 264.16 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18174,7 +18116,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -18192,7 +18134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f294fb-e97e-4392-ab81-350a67ea0697")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 130.81 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18253,7 +18195,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18358,7 +18300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad23862b-f6f7-4f47-89db-402e734b4ebb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 93.98 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -18418,7 +18360,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -18717,7 +18659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4988b37-458a-469e-8c03-ec86ec7c351f")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 243.84 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18777,7 +18719,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18795,7 +18737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b58d1a24-01e1-4865-b059-2c7de06cb4bc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18856,7 +18798,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19050,7 +18992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb4d218a-8be9-4d25-babe-8549f8785daf")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 205.74 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -19111,7 +19053,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19285,7 +19227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c038561e-c01f-4700-9cd8-11100bf71542")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 92.71 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -19346,7 +19288,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19363,7 +19305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4027bba-70c3-4605-9f63-8ac9927e3a69")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 170.434 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19425,7 +19367,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -19917,7 +19859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdbe0732-c048-49ad-8123-f9348d69d4da")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 224.79 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -19977,7 +19919,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -19994,7 +19936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d49ea3a8-a979-46b6-98ce-eb31b950c862")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 141.478 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20056,7 +19998,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -20161,7 +20103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5272040-d411-4261-b29e-8c633e43020e")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 170.688 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20223,7 +20165,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -20243,7 +20185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d60ff7fc-0a54-456e-9245-f482eb1dec73")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 180.086 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20305,7 +20247,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -20868,7 +20810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddaa749f-95f1-401c-9c1c-332fb1398f5f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 199.39 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20929,7 +20871,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -21312,7 +21254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4d7c46c-4d34-4206-9748-5b2c51ea1dae")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR023"
 			(at 165.1 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -21373,7 +21315,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR028")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21468,7 +21410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7dd1b11-3de8-48b1-a988-9cc233cd021b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 207.01 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -21528,7 +21470,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21630,7 +21572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebfe385a-2e72-42d9-a7f9-96e3c6457d06")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 216.154 27.178 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21692,7 +21634,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -21923,7 +21865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3c1a5ef-be66-4500-b887-dfaddc971f97")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 251.46 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22068,7 +22010,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 					(variant
 						(name "BM cc/cv charger")
@@ -22330,7 +22272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7a5330c-389a-4a6d-b22d-1eef5d347f6c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 172.72 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -22391,7 +22333,7 @@
 		(instances
 			(project "plant_biosense"
 				(path "/8bcaa202-2f32-4149-8d46-6de92f1dd2bb"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
