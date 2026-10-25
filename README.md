@@ -10,6 +10,10 @@
 
 **License:** CHL v1.0
 
+<p align="left">
+  <img src="images/isleri_logo.jpg" alt="ISLERI logo" width="180">
+</p>
+
 # CEREPHYTE
 
 License: CHL v1.0
