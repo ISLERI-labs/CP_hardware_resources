@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.0] - 2026-10-25
+
+### Changed
+
+* Added links in the README to the CP_software and CP_firmware repositories.
+
 ## \[4.5.0] - 2026-10-16
 
 ### Changed

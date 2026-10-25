@@ -1,10 +1,10 @@
-**Project Status:** 🟡 Active Development
+**Project Status:** Active Testing
 
 **Author/developed by:** Omm Prakash Das
 
-**Latest Stable Hardware:** None
+**Latest Stable Hardware:** CEREPHYTE 5
 
-**Current Prototype:** CEREPHYTE 4.5 (Prototype evaluation)
+**Current Prototype:** CEREPHYTE 5 (Prototype testing)
 
 **Validation Status:** Hardware validation pending
 
@@ -27,6 +27,12 @@ This project is source-available.
 ✘ Commercial Distribution
 
 See LICENSE for details.
+
+## Project Repositories
+
+- [CP_hardware_resources](https://github.com/ISLERI-labs/CP_hardware_resources) — hardware designs and resources (this repository).
+- [CP_software](https://github.com/ISLERI-labs/CP_software) — project software.
+- [CP_firmware](https://github.com/ISLERI-labs/CP_firmware) — project firmware.
 
 ## Documentation
 
