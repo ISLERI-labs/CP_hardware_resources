@@ -56,3 +56,11 @@ See LICENSE for details.
 > At this stage, the project **should not be considered production-ready** or suitable for safety-critical or commercial applications.
 >
 > Bug reports, design reviews, and constructive feedback are welcome.
+
+## Copyright and Licensing
+
+Copyright © 2026 Omm Prakash Das.
+
+The CEREPHYTE hardware designs and associated materials are provided under the licenses specified in this repository. Hardware design files are governed by the CerePhyte Hardware License (CHL) v1.0. Documentation and other materials are licensed under CC BY-SA 4.0 where expressly indicated.
+
+See "LICENSE" (LICENSE) and the relevant file-level notices for the applicable terms. Third-party materials remain subject to their respective licenses.
