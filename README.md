@@ -49,10 +49,6 @@ See LICENSE for details.
 >
 > The hardware designs, schematics, and documentation in this repository are **experimental** and are being released to encourage transparency, learning, community feedback, and collaborative research.
 >
-> **Testing and validation of the published schematics have not yet been completed.**
->
-> Development of the **CEREPHYTE 4.2 prototype** is currently in progress, and the design may change as issues are discovered and improvements are made.
->
 > At this stage, the project **should not be considered production-ready** or suitable for safety-critical or commercial applications.
 >
 > Bug reports, design reviews, and constructive feedback are welcome.
